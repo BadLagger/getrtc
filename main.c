@@ -40,7 +40,7 @@ int main()
     return 0;
   }
 
-  printf("%02d/%02d/%04d/%02d:%02d:%02d - %d - %d - %d\n", rtc_data.tm_mday, rtc_data.tm_mon, rtc_data.tm_year + 1900, 
+  printf("%02d/%02d/%04d/%02d:%02d:%02d - %d - %d - %d\n", rtc_data.tm_mday, rtc_data.tm_mon + 1, rtc_data.tm_year + 1900, 
                                                            rtc_data.tm_hour, rtc_data.tm_min, rtc_data.tm_sec,
                                                            rtc_data.tm_wday, rtc_data.tm_yday, rtc_data.tm_isdst);
 
